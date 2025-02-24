@@ -87,3 +87,36 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+}
+
+.content-2 {
+    display: flex;
+    gap: 48px;
+    padding: 48px;
+    flex-wrap: wrap;
+}
+
+.image-pair {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.image {
+    width: 180px;
+    height: 180px;
+    border: #3882f6 solid;
+    border-radius: 16px;
+}
+
+.image-subtext {
+    max-width: 180px;
+    text-align: center;
+}
