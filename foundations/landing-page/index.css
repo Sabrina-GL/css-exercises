@@ -89,6 +89,7 @@ body {
 }
 
 .section-2 {
+    color: #1f2937;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,6 +101,11 @@ body {
     gap: 48px;
     padding: 48px;
     flex-wrap: wrap;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .image-pair {
@@ -119,4 +125,30 @@ body {
 .image-subtext {
     max-width: 180px;
     text-align: center;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+    /* max-width: 480px; */
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 100px 275px;
+    /* max-width: 500px; */
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quotee {
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 18px;
 }
