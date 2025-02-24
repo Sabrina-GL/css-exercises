@@ -1,1 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 200px;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.link {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-links {
+    display: flex;
+}
+
+.section-1 {
+    background-color: #1f2937;
+}
