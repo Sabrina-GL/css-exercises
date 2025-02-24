@@ -7,7 +7,17 @@ body {
     display: flex;
     flex-direction: column;
     /* flex: 1; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+}
+
+.header,
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.footer {
+    padding: 16px 200px;
 }
 
 .header {
@@ -15,12 +25,16 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 16px 200px;
+}
+
+.header-logo {
+    font-size: 24px;
 }
 
 .header-links {
     display: flex;
     gap: 16px;
+    font-size: 18px;
 }
 
 .link {
@@ -28,10 +42,48 @@ body {
     list-style: none;
 }
 
-.header-links {
-    display: flex;
-}
-
 .section-1 {
     background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    padding: 100px 200px;
+
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 8px
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.content-1 p {
+    font-size: 18px;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    align-items: flex-start;
+    padding: 8px 48px;
+    border-radius: 8px;
+}
+
+.button-1 {
+    align-self: flex-start;
+}
+
+.image-placeholder {
+    background-color: gray;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
